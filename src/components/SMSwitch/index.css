@@ -1,0 +1,39 @@
+.toggle {
+    position: relative ;
+    display: inline-block;
+    width: 40px;
+    height: 22px;
+    background-color: #000000;
+    border-radius: 30px;
+    --default-color: var(--widget-green-color)
+}
+
+.toggle:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--default-color);
+    top: 1px;
+    left: -1px;
+    transition:  all 0.5s;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.checkbox:checked + .toggle::after {
+    left: 20px;
+    background-color: #ffffff;
+}
+
+.checkbox:checked + .toggle {
+    background-color: var(--default-color);
+}
+
+.checkbox {
+    display: none;
+}
