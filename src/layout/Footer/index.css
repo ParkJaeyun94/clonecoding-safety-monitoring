@@ -40,16 +40,17 @@ footer .footer-icon {
     cursor: pointer;
     user-select: none;
     color: var(--gray-default);
+    border: none;
 }
 
-footer .footer-icon:hover {
+footer .footer-icon.active {
     background-color: #8080803F;
     color: #ffffff;
-    transform: scale(1.03);
-    transition: transform .1s cubic-bezier(.35,.9,.54,1.03);
+    transform: scale(1.01);
+    transition: background-color .1s cubic-bezier(.35,.9,.54,1.03);
 }
 
-footer .footer-icon:hover svg path {
+footer .footer-icon.active svg path {
     fill: #ffffff;
 }
 

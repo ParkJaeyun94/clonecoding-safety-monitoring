@@ -1,0 +1,43 @@
+.widget-small {
+    --default-color: #E6F5FB;
+    border-radius: var(--widget-border-radius);
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: var(--widget-bg-color);
+}
+
+.widget-small .widget-small-header {
+    display: flex;
+}
+
+.widget-small .widget-small-header .widget-small-icon {
+    background-color: var(--default-color);
+    padding: 5px;
+    margin-right: 12px;
+    border-radius: 8px;
+
+}
+
+.widget-small .widget-small-header .widget-small-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.widget-small .widget-small-header .widget-small-title {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.widget-small .widget-small-switch {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.widget-small .widget-small-switch .widget-small-switch-state {
+    text-transform: uppercase;
+}

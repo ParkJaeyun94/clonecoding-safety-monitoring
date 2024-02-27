@@ -1,0 +1,46 @@
+.widget-middle {
+    --default-color: #E6F5FB;
+    grid-column: span 2;
+    grid-row: span 2;
+    border-radius: var(--widget-border-radius);
+    background-color: var(--default-color);
+    color: #000000;
+    padding: 16px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.widget-middle .widget-middle-header {
+    display: flex;
+}
+
+.widget-middle .widget-middle-header .widget-middle-icon {
+    border-radius: 8px;
+    background-color: var(--default-color);
+    opacity: .8;
+    mix-blend-mode: multiply;
+    padding: 6px;
+    margin-right: 12px;
+}
+
+.widget-middle .widget-middle-header .widget-middle-title {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.widget-middle .widget-middle-header .widget-middle-select {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    text-transform: capitalize;
+}
+
+.widget-middle .widget-middle-body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

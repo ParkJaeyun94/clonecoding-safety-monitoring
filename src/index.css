@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
   --bg-color-dark: #3a3a3a;
   --container-bg-color-dark: #161616;
-  --container-padding: 24px 36px;
+  --container-padding: 32px 54px;
   --widget-bg-color: #5050503F;
   --widget-border-radius: 20px;
   --font-color-dark: #ffffff;
@@ -26,6 +28,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", sans-serif;
 }
 
 code {
